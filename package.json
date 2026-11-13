@@ -1,0 +1,12 @@
+{
+  "name": "cube-racer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Multiplayer cube racing game with a built-in T-shaped skin editor. Zero dependencies.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/closure.mjs && node test/bot.mjs && node test/server.test.mjs && node test/smoke.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,10 @@
+# Optional. Easiest path is the manual "Web Service" route in README.md (no YAML needed).
+# This file must sit at the ROOT of your GitHub repo to be found.
+services:
+  - type: web
+    name: cube-racer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
